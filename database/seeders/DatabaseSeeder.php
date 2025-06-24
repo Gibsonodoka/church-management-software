@@ -15,8 +15,8 @@ class DatabaseSeeder extends Seeder
 
         // Seed Admin User
         $admin = User::create([
-            'name' => 'Admin User',
-            'email' => 'admin@example.com',
+            'name' => 'Admin',
+            'email' => 'admin@newheavenph.com',
             'password' => bcrypt('password'),
             'email_verified_at' => now(),
         ]);
@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
         // Seed Senior Pastor User
         $pastor = User::create([
             'name' => 'Senior Pastor',
-            'email' => 'pastor@example.com',
+            'email' => 'pastor@newheavenph.com',
             'password' => bcrypt('password'),
             'email_verified_at' => now(),
         ]);
